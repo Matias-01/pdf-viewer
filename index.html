@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.0.943/pdf.min.js">
+	</script>
+	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+	<title>PDF</title>
+	
+</head>
+<body>
+	<div id="pdf-viewer">
+		<div id="canvas-container">
+			<canvas id="pdf-renderer"></canvas>
+		</div>
+		<div id="nav-controls">
+			<button id="previous">Previous</button>
+			<input id="current-page" value="1" name="number">
+			<button id="next">Next</button>
+		</div>
+		<div id="zoom-controls">
+			<button id="zoom-in">+</button>
+			<button id="zoon-out">-</button>
+		</div>
+	</div>
+	<script src="app.js"></script>
+</body>
+</html>
